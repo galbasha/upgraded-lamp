@@ -70,10 +70,10 @@ table {
         float: left;
         position:absolute;
         background-size: cover;
+        -moz-background-size: cover;
         background-position: center;
         background-repeat: round;
         -webkit-background-size: cover;
-        -moz-background-size: cover;
         -o-background-size: cover;
   }
 
@@ -97,10 +97,11 @@ table {
         animation-play-state:running;
         display: inline-block;
         border-radius: 4px;
-        animation: blinkingBackground 2s infinite;
+        animation: colorchange 2s infinite;
+        animation-iteration-count: 50;
 
   }
-  @keyframes blinkingBackground{
+  @keyframes colorchange{
       0%		{ background-color: #4af753;}
       25%		{ background-color: #4585e6;}
       50%		{ background-color: #ef0a1a;}
