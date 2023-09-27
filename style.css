@@ -72,17 +72,9 @@ table {
         background-size: cover;
         background-position: center;
         background-repeat: round;
-
-
-  }
-  * { box-sizing: border-box; }
-
-.catbg2{ 
-        background: url(catnyeh1.png) no-repeat center center fixed; 
-        background-size: cover;
-        background-size: cover;
-        background-size: cover;
-        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
   }
 
  * { box-sizing: border-box; }
