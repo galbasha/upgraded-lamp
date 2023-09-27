@@ -3,88 +3,84 @@ body {
   }
   h1 {
     color: blue;
-    
-        text-align: center;
-        
+    text-align: center;      
   }
-  p {
-    color: black;
+
+  p { color: black;
   }
 
 
   .center1 {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
   }
 
   .center2 {margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
-    border: 1px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        border: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 table {
-    font-family: arial;
-    border-collapse: collapse;
-    width: 100%;
+        font-family: arial;
+        border-collapse: collapse;
+        border-style: dotted;
+        width: 50%;
+        empty-cells: hide;
   }
   
-  td, th {
-    border: 2px solid #ca000044;
-    text-align: left;
-    padding: 8px;
+    td, th {
+        border: 2px solid #ca000044;
+        text-align: left;
+        padding: 8px;
+        vertical-align: bottom;
   }
   
-  tr:hover {background-color: turquoise;}
-
-  tr:nth-child(even) {
-    background-color: #ffadadd7;
+    tr:hover {background-color: turquoise;}
+    tr:nth-child(even) {background-color: #ffadadd7;
   }
 
 
-ol {
-    background: lightsteelblue;
-    padding: 10px;
-    width: 50%
+    ol {
+        background: lightsteelblue;
+        padding: 10px;
+        width: 50%
   }
   
-  ol li {
-    background: lightcyan;
-    color: black;
-    padding: 5px;
-    margin-left: 15px;
-    width: 90%
+    ol li {
+        background: lightcyan;
+        color: black;
+        padding: 5px;
+        margin-left: 15px;
+        width: 90%
   }
+
   .catbg{
+        background-image: url('catnyeh1.png');
+        opacity:0.2;
+        position:absolute;
+        background-size: cover;
+        background-position: center;
+        background-repeat: round;
 
-background-image: url('catnyeh1.png');
-background-size: cover;
-background-position: center;
-background-repeat: round;
-opacity:0.2;
-position:absolute;
   }
 
 .catbg2{ 
-    background: url(catnyeh1.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        background: url(catnyeh1.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
   }
-
-
-
-  
 
  * { box-sizing: border-box; }
 
@@ -93,27 +89,28 @@ position:absolute;
     padding: 5px;
   }
   
-
   .side1::after { content: "";
     clear: both;
     display: table;
   }
 
-
   .blink{
-      color: #fff;
-      padding: 8px;
-      display: inline-block;
-      border-radius: 4px;
-      animation: blinkingBackground 2s infinite;
-      animation-delay: 0ms;
+        color: #fff;
+        padding: 8px;
+        animation-delay: 0ms;
+        animation-direction:reverse;
+        animation-play-state:running;
+        display: inline-block;
+        border-radius: 4px;
+        animation: blinkingBackground 2s infinite;
+
   }
   @keyframes blinkingBackground{
       0%		{ background-color: #4af753;}
       25%		{ background-color: #4585e6;}
       50%		{ background-color: #ef0a1a;}
       75%		{ background-color: #e66daf;}
-      100%	     { background-color: #ffa845;}
+      100%	    { background-color: #ffa845;}
   }
 
 
