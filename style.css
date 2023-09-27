@@ -64,21 +64,24 @@ table {
         width: 90%
   }
 
-  .catbg{
-        background-image: url('catnyeh1.png');
-        opacity:0.2;
+  .catbg1{
+        background: url(catnyeh1.png) no-repeat center center fixed;
+        opacity:1;
+        float: left;
         position:absolute;
         background-size: cover;
         background-position: center;
         background-repeat: round;
 
+
   }
+  * { box-sizing: border-box; }
 
 .catbg2{ 
         background: url(catnyeh1.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-size: cover;
+        background-size: cover;
+        background-size: cover;
         background-size: cover;
   }
 
